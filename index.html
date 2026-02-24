@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Авто из Китая под ключ. Реальные цены с таможней и доставкой в Благовещенск.">
+<meta property="og:title" content="Авто из Китая под ключ | Turbo DV">
+<meta property="og:description" content="Реальные цены с таможней и доставкой в Благовещенск">
+<meta property="og:type" content="website">
+<title>Авто из Китая под ключ | Turbo DV</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #f3f4f6; font-family: 'Manrope', sans-serif; color: #1f2937; padding: 20px; }
+.container { max-width: 900px; margin: 0 auto; background: #fff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+.header { background: #0d1117; color: #fff; padding: 24px; text-align: left; display: flex; flex-direction: column; align-items: flex-start; gap: 16px; }
+.header-content { display: flex; align-items: center; gap: 20px; width: 100%; flex-wrap: wrap; }
+.header-text { flex: 1; text-align: left; }
+.header h1 { font-size: 26px; font-weight: 800; margin-bottom: 8px; }
+.header p { color: #9ca3af; font-size: 14px; }
+.badge { background: #b91c1c; color: #fff; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 700; display: inline-block; }
+.logo { max-width: 120px; height: auto; }
+.notice-bar { background: #fef2f2; border-bottom: 2px solid #b91c1c; padding: 12px 24px; text-align: center; font-size: 13px; color: #991b1b; font-weight: 600; }
+.car-list { padding: 24px; }
+.car-card { display: flex; gap: 20px; padding: 20px; border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 20px; align-items: flex-start; background: #fff; }
+.car-card:last-child { margin-bottom: 0; }
+.car-card.special { border: 2px solid #b91c1c; background: #fef2f2; position: relative; }
+.car-card.special::before { content: '🔥 В НАЛИЧИИ'; position: absolute; top: -12px; right: 20px; background: #b91c1c; color: #fff; padding: 4px 12px; border-radius: 8px; font-size: 11px; font-weight: 700; }
+.car-image { width: 300px; height: 200px; background: #e5e7eb; border-radius: 8px; flex-shrink: 0; overflow: hidden; }
+.car-image img { width: 100%; height: 100%; object-fit: cover; }
+.car-info { flex: 1; }
+.car-name { font-weight: 800; font-size: 18px; margin-bottom: 6px; color: #111827; }
+.car-price { color: #b91c1c; font-weight: 800; font-size: 20px; margin-bottom: 12px; }
+.car-specs { font-size: 13px; color: #4b5563; margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 8px; }
+.spec-tag { background: #f3f4f6; padding: 4px 10px; border-radius: 4px; font-weight: 600; }
+.calc-box { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px; font-size: 12px; color: #374151; }
+.calc-row { display: flex; justify-content: space-between; margin-bottom: 5px; }
+.calc-row:last-child { margin-bottom: 0; border-top: 1px solid #e5e7eb; padding-top: 6px; font-weight: 700; color: #111827; }
+.btn-calc { background: #0d1117; color: #fff; border: none; padding: 12px 24px; border-radius: 8px; font-weight: 700; font-size: 14px; cursor: pointer; width: 100%; margin-top: 12px; }
+.btn-calc:hover { background: #b91c1c; }
+.cta-box { background: #fef2f2; border: 2px dashed #b91c1c; border-radius: 12px; padding: 24px; text-align: center; margin: 24px; }
+.cta-box h3 { font-size: 18px; margin-bottom: 8px; }
+.cta-box p { font-size: 14px; color: #4b5563; margin-bottom: 16px; }
+.form-inline { display: flex; gap: 8px; flex-wrap: wrap; }
+.form-inline input { flex: 1; min-width: 200px; padding: 12px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 14px; }
+.form-inline button { background: #b91c1c; color: #fff; border: none; padding: 12px 24px; border-radius: 8px; font-weight: 700; cursor: pointer; }
+.footer { background: #f9fafb; padding: 20px; text-align: center; font-size: 13px; color: #6b7280; border-top: 1px solid #e5e7eb; }
+@media (max-width: 768px) { .car-card { flex-direction: column; } .car-image { width: 100%; height: 200px; } .btn-calc { width: 100%; } .form-inline { flex-direction: column; } .form-inline input, .form-inline button { width: 100%; } .header { text-align: center; align-items: center; } .header-content { flex-direction: column; text-align: center; } .header-text { text-align: center; } .logo { max-width: 150px; } }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="notice-bar">⚠️ Цена зависит от курса юаня! Наличие авто и актуальную цену уточняйте у менеджера!</div>
+<div class="header">
+<div class="header-content">
+<img src="logo.jpg" alt="Turbo DV" class="logo" width="120" height="80">
+<div class="header-text">
+<span class="badge">Актуально 2026</span>
+<h1>🔥 Подборка авто из Китая</h1>
+<p>Реальные цены с таможней и доставкой в Благовещенск</p>
+</div>
+</div>
+</div>
+<div class="car-list">
+
+<!-- Авто 1 -->
+<div class="car-card">
+<div class="car-image"><img src="01_elantra.jpg" alt="Hyundai Elantra" width="300" height="200"></div>
+<div class="car-info">
+<div class="car-name">Hyundai Elantra (2021)</div>
+<div class="car-price">1 287 105 ₽</div>
+<div class="car-specs"><span class="spec-tag">2021 год</span><span class="spec-tag">1.5 л</span><span class="spec-tag">115 л.с.</span><span class="spec-tag">69 000 км</span></div>
+<div class="calc-box"><div class="calc-row"><span>Авто в Китае:</span><span>937 105 ₽</span></div><div class="calc-row"><span>Таможня:</span><span>250 000 ₽</span></div><div class="calc-row"><span>Документы:</span><span>100 000 ₽</span></div><div class="calc-row"><span>Итого:</span><span>1 287 105 ₽</span></div></div>
+<button class="btn-calc" onclick="selectCar('Hyundai Elantra')">Хочу такую же</button>
+</div>
+</div>
+
+<!-- Авто 2 -->
+<div class="car-card">
+<div class="car-image"><img src="02_fit.jpg" alt="Honda Fit" width="300" height="200"></div>
+<div class="car-info">
+<div class="car-name">Honda Fit (август 2021)</div>
+<div class="car-price">1 232 430 ₽</div>
+<div class="car-specs"><span class="spec-tag">2021 год</span><span class="spec-tag">1.5 л</span><span class="spec-tag">130 л.с.</span><span class="spec-tag">20 000 км</span></div>
+<div class="calc-box"><div class="calc-row"><span>Авто в Китае:</span><span>882 430 ₽</span></div><div class="calc-row"><span>Таможня:</span><span>250 000 ₽</span></div><div class="calc-row"><span>Документы:</span><span>100 000 ₽</span></div><div class="calc-row"><span>Итого:</span><span>1 232 430 ₽</span></div></div>
+<button class="btn-calc" onclick="selectCar('Honda Fit')">Хочу такую же</button>
+</div>
+</div>
+
+<!-- Авто 3 -->
+<div class="car-card">
+<div class="car-image"><img src="03_cx5.jpg" alt="Mazda CX-5" width="300" height="200"></div>
+<div class="car-info">
+<div class="car-name">Mazda CX-5 (март 2023)</div>
+<div class="car-price">2 320 000 ₽</div>
+<div class="car-specs"><span class="spec-tag">2023 год</span><span class="spec-tag">2.0 л</span><span class="spec-tag">155 л.с.</span><span class="spec-tag">6 700 км</span></div>
+<div class="calc-box"><div class="calc-row"><span>Авто в Китае:</span><span>1 705 950 ₽</span></div><div class="calc-row"><span>Таможня:</span><span>513 000 ₽</span></div><div class="calc-row"><span>Документы:</span><span>100 000 ₽</span></div><div class="calc-row"><span>Итого:</span><span>2 320 000 ₽</span></div></div>
+<button class="btn-calc" onclick="selectCar('Mazda CX-5')">Хочу такую же</button>
+</div>
+</div>
+
+<!-- Авто 4 -->
+<div class="car-card">
+<div class="car-image"><img src="04_mini.jpg" alt="Mini Cooper" width="300" height="200"></div>
+<div class="car-info">
+<div class="car-name">Mini Cooper (2022)</div>
+<div class="car-price">3 319 245 ₽</div>
+<div class="car-specs"><span class="spec-tag">2022 год</span><span class="spec-tag">1.5T</span><span class="spec-tag">136 л.с.</span><span class="spec-tag">53 000 км</span></div>
+<div class="calc-box"><div class="calc-row"><span>Авто в Китае:</span><span>2 969 245 ₽</span></div><div class="calc-row"><span>Таможня:</span><span>250 000 ₽</span></div><div class="calc-row"><span>Документы:</span><span>100 000 ₽</span></div><div class="calc-row"><span>Итого:</span><span>3 319 245 ₽</span></div></div>
+<button class="btn-calc" onclick="selectCar('Mini Cooper')">Хочу такую же</button>
+</div>
+</div>
+
+<!-- Авто 5 -->
+<div class="car-card">
+<div class="car-image"><img src="05_m6.jpg" alt="Haval M6" width="300" height="200"></div>
+<div class="car-info">
+<div class="car-name">Haval M6 (октябрь 2021)</div>
+<div class="car-price">1 297 750 ₽</div>
+<div class="car-specs"><span class="spec-tag">2021 год</span><span class="spec-tag">1.5 л</span><span class="spec-tag">143 л.с.</span><span class="spec-tag">30 454 км</span></div>
+<div class="calc-box"><div class="calc-row"><span>Авто в Китае:</span><span>947 750 ₽</span></div><div class="calc-row"><span>Таможня:</span><span>250 000 ₽</span></div><div class="calc-row"><span>Документы:</span><span>100 000 ₽</span></div><div class="calc-row"><span>Итого:</span><span>1 297 750 ₽</span></div></div>
+<button class="btn-calc" onclick="selectCar('Haval M6')">Хочу такую же</button>
+</div>
+</div>
+
+<!-- Авто 6 -->
+<div class="car-card">
+<div class="car-image"><img src="06_levin.jpg" alt="Toyota Levin" width="300" height="200"></div>
+<div class="car-info">
+<div class="car-name">Toyota Levin (2021)</div>
+<div class="car-price">1 175 100 ₽</div>
+<div class="car-specs"><span class="spec-tag">2021 год</span><span class="spec-tag">1.5 л</span><span class="spec-tag">121 л.с.</span><span class="spec-tag">39 719 км</span></div>
+<div class="calc-box"><div class="calc-row"><span>Авто в Китае:</span><span>825 100 ₽</span></div><div class="calc-row"><span>Таможня:</span><span>250 000 ₽</span></div><div class="calc-row"><span>Документы:</span><span>100 000 ₽</span></div><div class="calc-row"><span>Итого:</span><span>1 175 100 ₽</span></div></div>
+<button class="btn-calc" onclick="selectCar('Toyota Levin')">Хочу такую же</button>
+</div>
+</div>
+
+<!-- Авто 7 -->
+<div class="car-card">
+<div class="car-image"><img src="07_q3.jpg" alt="AUDI Q3" width="300" height="200"></div>
+<div class="car-info">
+<div class="car-name">AUDI Q3 35TFSI S Line (февраль 2022)</div>
+<div class="car-price">2 568 850 ₽</div>
+<div class="car-specs"><span class="spec-tag">2022 год</span><span class="spec-tag">1.4T</span><span class="spec-tag">150 л.с.</span><span class="spec-tag">58 000 км</span></div>
+<div class="calc-box"><div class="calc-row"><span>Авто в Китае:</span><span>2 218 850 ₽</span></div><div class="calc-row"><span>Таможня:</span><span>250 000 ₽</span></div><div class="calc-row"><span>Документы:</span><span>100 000 ₽</span></div><div class="calc-row"><span>Итого:</span><span>2 568 850 ₽</span></div></div>
+<button class="btn-calc" onclick="selectCar('AUDI Q3 S Line')">Хочу такую же</button>
+</div>
+</div>
+
+<!-- Авто 8 -->
+<div class="car-card">
+<div class="car-image"><img src="08_xrv.jpg" alt="Honda XR-V" width="300" height="200"></div>
+<div class="car-info">
+<div class="car-name">Honda XR-V (2023)</div>
+<div class="car-price">2 111 700 ₽</div>
+<div class="car-specs"><span class="spec-tag">2023 год</span><span class="spec-tag">1.5 л</span><span class="spec-tag">124 л.с.</span><span class="spec-tag">8 870 км</span></div>
+<div class="calc-box"><div class="calc-row"><span>Авто в Китае:</span><span>1 761 700 ₽</span></div><div class="calc-row"><span>Таможня:</span><span>250 000 ₽</span></div><div class="calc-row"><span>Документы:</span><span>100 000 ₽</span></div><div class="calc-row"><span>Итого:</span><span>2 111 700 ₽</span></div></div>
+<button class="btn-calc" onclick="selectCar('Honda XR-V')">Хочу такую же</button>
+</div>
+</div>
+
+<!-- Авто 9 -->
+<div class="car-card">
+<div class="car-image"><img src="09_lamando_280.jpg" alt="VW Lamando 280 TSI" width="300" height="200"></div>
+<div class="car-info">
+<div class="car-name">VOLKSWAGEN Lamando 280 TSI (февраль 2023)</div>
+<div class="car-price">1 877 550 ₽</div>
+<div class="car-specs"><span class="spec-tag">2023 год</span><span class="spec-tag">1.4T</span><span class="spec-tag">150 л.с.</span><span class="spec-tag">29 000 км</span></div>
+<div class="calc-box"><div class="calc-row"><span>Авто в Китае:</span><span>1 527 550 ₽</span></div><div class="calc-row"><span>Таможня:</span><span>250 000 ₽</span></div><div class="calc-row"><span>Документы:</span><span>100 000 ₽</span></div><div class="calc-row"><span>Итого:</span><span>1 877 550 ₽</span></div></div>
+<button class="btn-calc" onclick="selectCar('VW Lamando 280 TSI')">Хочу такую же</button>
+</div>
+</div>
+
+<!-- Авто 10 -->
+<div class="car-card special">
+<div class="car-image"><img src="10_lamando_230.jpg" alt="VW Lamando 230 TSI" width="300" height="200"></div>
+<div class="car-info">
+<div class="car-name">VOLKSWAGEN Lamando 230 TSI DSG Fashion (май 2022)</div>
+<div class="car-price">1 180 000 ₽</div>
+<div class="car-specs"><span class="spec-tag">2022 год</span><span class="spec-tag">1.4T</span><span class="spec-tag">131 л.с.</span><span class="spec-tag">41 236 км</span></div>
+<div class="calc-box"><div class="calc-row"><span>🔥 Машина в наличии на границе РФ!</span></div><div class="calc-row"><span>Итого в Благовещенске:</span><span>1 180 000 ₽</span></div></div>
+<button class="btn-calc" onclick="selectCar('VW Lamando 230 TSI (В НАЛИЧИИ)')">Забронировать</button>
+</div>
+</div>
+
+<!-- Авто 11 -->
+<div class="car-card">
+<div class="car-image"><img src="11_geely.jpg" alt="Geely Vision X6 PRO" width="300" height="200"></div>
+<div class="car-info">
+<div class="car-name">Geely Vision X6 PRO Premium (февраль 2023)</div>
+<div class="car-price">1 495 000 ₽</div>
+<div class="car-specs"><span class="spec-tag">2023 год</span><span class="spec-tag">1.5T</span><span class="spec-tag">150 л.с.</span><span class="spec-tag">14 000 км</span></div>
+<div class="calc-box"><div class="calc-row"><span>Авто в Китае:</span><span>1 245 000 ₽</span></div><div class="calc-row"><span>Таможня:</span><span>150 000 ₽</span></div><div class="calc-row"><span>Документы:</span><span>100 000 ₽</span></div><div class="calc-row"><span>Итого:</span><span>1 495 000 ₽</span></div></div>
+<button class="btn-calc" onclick="selectCar('Geely Vision X6 PRO')">Хочу такую же</button>
+</div>
+</div>
+
+<!-- Авто 12 -->
+<div class="car-card">
+<div class="car-image"><img src="12_corolla.jpg" alt="Toyota Corolla" width="300" height="200"></div>
+<div class="car-info">
+<div class="car-name">Toyota Corolla 1.5 CVT TNGA Elite (июнь 2021)</div>
+<div class="car-price">1 354 500 ₽</div>
+<div class="car-specs"><span class="spec-tag">2021 год</span><span class="spec-tag">1.5 л</span><span class="spec-tag">120 л.с.</span><span class="spec-tag">32 000 км</span></div>
+<div class="calc-box"><div class="calc-row"><span>Авто в Китае:</span><span>1 104 500 ₽</span></div><div class="calc-row"><span>Таможня:</span><span>150 000 ₽</span></div><div class="calc-row"><span>Документы:</span><span>100 000 ₽</span></div><div class="calc-row"><span>Итого:</span><span>1 354 500 ₽</span></div></div>
+<button class="btn-calc" onclick="selectCar('Toyota Corolla')">Хочу такую же</button>
+</div>
+</div>
+
+<!-- Авто 13 -->
+<div class="car-card">
+<div class="car-image"><img src="13_a180.jpg" alt="Mercedes-Benz A180" width="300" height="200"></div>
+<div class="car-info">
+<div class="car-name">Mercedes-Benz A180 (март 2023)</div>
+<div class="car-price">2 133 480 ₽</div>
+<div class="car-specs"><span class="spec-tag">2023 год</span><span class="spec-tag">1.3T</span><span class="spec-tag">136 л.с.</span><span class="spec-tag">32 000 км</span></div>
+<div class="calc-box"><div class="calc-row"><span>Авто в Китае:</span><span>1 815 480 ₽</span></div><div class="calc-row"><span>Таможня:</span><span>218 000 ₽</span></div><div class="calc-row"><span>Документы:</span><span>100 000 ₽</span></div><div class="calc-row"><span>Итого:</span><span>2 133 480 ₽</span></div></div>
+<button class="btn-calc" onclick="selectCar('Mercedes-Benz A180')">Хочу такую же</button>
+</div>
+</div>
+
+<!-- Авто 14 -->
+<div class="car-card">
+<div class="car-image"><img src="14_golf.jpg" alt="VW Golf R-Line" width="300" height="200"></div>
+<div class="car-info">
+<div class="car-name">VOLKSWAGEN Golf R-Line (апрель 2021)</div>
+<div class="car-price">1 726 250 ₽</div>
+<div class="car-specs"><span class="spec-tag">2021 год</span><span class="spec-tag">1.4T</span><span class="spec-tag">140 л.с.</span><span class="spec-tag">26 207 км</span></div>
+<div class="calc-box"><div class="calc-row"><span>Авто в Китае:</span><span>1 386 250 ₽</span></div><div class="calc-row"><span>Таможня:</span><span>240 000 ₽</span></div><div class="calc-row"><span>Документы:</span><span>100 000 ₽</span></div><div class="calc-row"><span>Итого:</span><span>1 726 250 ₽</span></div></div>
+<button class="btn-calc" onclick="selectCar('VW Golf R-Line')">Хочу такую же</button>
+</div>
+</div>
+
+<!-- Авто 15: AUDI Q3 35TFSI (НОВАЯ) -->
+<div class="car-card">
+<div class="car-image"><img src="15_audiq335tfsi.jpg" alt="AUDI Q3 35TFSI" width="300" height="200"></div>
+<div class="car-info">
+<div class="car-name">AUDI Q3 35TFSI (2022)</div>
+<div class="car-price">2 550 000 ₽</div>
+<div class="car-specs"><span class="spec-tag">2022 год</span><span class="spec-tag">1.4T</span><span class="spec-tag">150 л.с.</span><span class="spec-tag">47 000 км</span></div>
+<div class="calc-box"><div class="calc-row"><span>Авто в Китае:</span><span>2 210 000 ₽</span></div><div class="calc-row"><span>Таможня:</span><span>240 000 ₽</span></div><div class="calc-row"><span>Документы:</span><span>100 000 ₽</span></div><div class="calc-row"><span>Итого:</span><span>2 550 000 ₽</span></div></div>
+<button class="btn-calc" onclick="selectCar('AUDI Q3 35TFSI')">Хочу такую же</button>
+</div>
+</div>
+
+<!-- Авто 16: Mercedes-Benz C200L (НОВАЯ) -->
+<div class="car-card">
+<div class="car-image"><img src="16_benzc200l.jpg" alt="Mercedes-Benz C200L" width="300" height="200"></div>
+<div class="car-info">
+<div class="car-name">Mercedes-Benz C200L (2021)</div>
+<div class="car-price">2 700 000 ₽</div>
+<div class="car-specs"><span class="spec-tag">2021 год</span><span class="spec-tag">1.5T</span><span class="spec-tag">156 л.с.</span><span class="spec-tag">46 000 км</span></div>
+<div class="calc-box"><div class="calc-row"><span>Авто в Китае:</span><span>2 350 000 ₽</span></div><div class="calc-row"><span>Таможня:</span><span>250 000 ₽</span></div><div class="calc-row"><span>Документы:</span><span>100 000 ₽</span></div><div class="calc-row"><span>Итого:</span><span>2 700 000 ₽</span></div></div>
+<button class="btn-calc" onclick="selectCar('Mercedes-Benz C200L')">Хочу такую же</button>
+</div>
+</div>
+
+</div>
+
+<div class="cta-box">
+<h3>💰 Не нашли нужную модель?</h3>
+<p>Рассчитаем стоимость любого авто из Китая под ваш бюджет!</p>
+<form onsubmit="sendLead(event)">
+<div class="form-inline">
+<input type="text" id="userName" placeholder="Ваше имя" required>
+<input type="text" id="userCity" placeholder="Из какого вы города" required>
+<input type="text" id="carModel" placeholder="Например: Kia K5, Geely Monjaro" required>
+<input type="tel" id="phone" placeholder="+7 (___) ___-__-__" required>
+<button type="submit">Рассчитать стоимость</button>
+</div>
+</form>
+</div>
+
+<div class="footer">
+<strong>Turbo DV</strong> • Официальная поставка • Договор • Благовещенск • поставка в любой город!
+</div>
+</div>
+
+<script>
+const TG_TOKEN = '8735780531:AAGNgu-_UVG-NEvrr_AxcJuhPLmFn4g7x-Q';
+const TG_CHAT = '-939141784';
+
+function selectCar(model) {
+document.getElementById('carModel').value = model;
+document.querySelector('.cta-box').scrollIntoView({ behavior: 'smooth' });
+}
+
+async function sendLead(e) {
+e.preventDefault();
+const btn = e.target.querySelector('button');
+const originalText = btn.textContent;
+btn.disabled = true;
+btn.textContent = '⏳ Отправка...';
+
+const msg = `🔥 <b>Заявка с подборки 2026!</b>\n\n👤 <b>Имя:</b> ${document.getElementById('userName').value}\n🏙️ <b>Город:</b> ${document.getElementById('userCity').value}\n🚗 <b>Интересует:</b> ${document.getElementById('carModel').value}\n📱 <b>Телефон:</b> ${document.getElementById('phone').value}`;
+
+try {
+await fetch(`https://api.telegram.org/bot${TG_TOKEN}/sendMessage`, {
+method: 'POST',
+headers: {'Content-Type': 'application/json'},
+body: JSON.stringify({chat_id: TG_CHAT, text: msg, parse_mode: 'HTML'})
+});
+alert('✅ Заявка отправлена! Менеджер свяжется с вами.');
+e.target.reset();
+} catch(err) {
+alert('Ошибка отправки. Позвоните нам.');
+}
+btn.disabled = false;
+btn.textContent = originalText;
+}
+
+document.getElementById('phone').addEventListener('input', function(e) {
+let x = e.target.value.replace(/\D/g, '').match(/(\d{0,1})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
+e.target.value = !x[2] ? (x[1] ? '+7' : '') : `+7 (${x[2]}` + (x[3] ? `) ${x[3]}` : '') + (x[4] ? `-${x[4]}` : '') + (x[5] ? `-${x[5]}` : '');
+});
+</script>
+</body>
+</html>
